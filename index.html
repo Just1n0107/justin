@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>CROSSCOUNTRY</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Justin Anderson Tan Chun Jie">
+	<meta name="description" content="Fashion-Shoes">
+	<meta name="keywords" content="Nike, Converse, Adidas, New Balance, Shoes">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<header>
+
+		<nav class="main">
+
+			<div>
+				<a href="index.html"><img src="images/logo.png" class="logo"></a>
+			</div>
+
+		<section class="header">
+			<ul>
+				<li><a href="men.html">Men</a></li>
+				<li><a href="women.html">Women</a></li>
+				<li><a href="kids.html">Kids</a></li>
+				<li><a href="accessories.html">Accessories</a></li>
+				<li><a href="sale.html" style="color:red">SALE</a></li>
+
+			<div class="dropdown">
+				<span><b>&#8943;</b></span>
+			<div class="dropdown-content">
+				<p><a href="about.html">About us</a></p></br>
+				<p><a href="feedback.html">Feedback</a></p>
+			</div>
+			</div>
+
+			</ul>
+		</section>
+					
+			<div class="search">
+				<input class="srch" type="search" name="" placeholder="Enter">
+				<a href="#"> <button class="btn">Search &#x1F50D;</button></a>
+			</div>
+
+		</nav>
+
+	</header>
+
+	<article>
+	
+	<!--<div class="sale">-->
+
+
+
+	<div id="slideshow-container">
+		<div class="mySlides">
+		    <img class="img" src="images/sale2.png" alt="Image 1">
+		</div>
+
+		<div class="mySlides">
+		    <img class="img" src="images/sale3.webp" alt="Image 2">
+		</div>
+
+		<div class="mySlides">
+		    <img class="img" src="images/sale4.webp" alt="Image 3">
+		</div>
+
+		<div class="mySlides">
+		    <img class="img" src="images/sale5.jpg" alt="Image 4">
+		</div>
+
+	</div>
+
+
+<!--JAVASCRIPT-->
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    const slides = document.getElementsByClassName("mySlides");
+
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+  }
+</script>
+
+
+	<div class="introduction">
+		<h2>Introduction: </h2>
+		<p>Welcome to our online destination dedicated to footwear enthusiasts! At <b>CROSSCOUNTRY</b>, we take pride in offering a diverse and stylish collection of shoes to meet every taste and occasion. Our purpose is to provide a seamless and enjoyable shopping experience, where you can explore the latest trends, find comfortable classics, and discover the perfect pair for any adventure. Step into a world where fashion meets function, and every pair tells a unique story. Join us as we redefine the way you shop for shoes!</p>
+	</div>
+
+	<div class="desc">
+		<h1 class="category">Trending Styles</h1>
+		<p><b>&#8618; <span style="background-color:#ebe9e6; border-radius:5px;">View All Trending Styles</span></b></p>
+	</div>
+
+<div class="home_img">
+	<div class="images">
+		<a href="men.html"><img src="images/converse_men01.jpg"></a>
+		<h2>Classic Chunk</h2>
+	</div>
+
+	<div class="images">
+		<a href="men.html"><img src="images/converse_men02.jpg"></a>
+		<h2>Chunk 70</h2>
+	</div>
+
+	<div class="images">
+		<a href="men.html"><img src="images/nike_men01.webp"></a>
+		<h2>Dunk Low SE</h2>
+	</div>
+
+	<div class="images">
+		<a href="men.html"><img src="images/NB_men02.png"></a>
+		<h2>USA 990v6</h2>
+	</div>
+
+	<div class="images">
+		<a href="men.html"><img src="images/adidas_men01.jpg"></a>
+		<h2>Adidas Samba</h2>
+	</div>
+
+</div>
+
+	<div class="desc">
+		<h1 class="category"><span style="color: #fc5353;">Sale</span></h1>
+		<p><b>&#8618; <span style="background-color:#ebe9e6; border-radius:5px;">View All Sale Now</span></b></p>
+	</div>
+
+<div class="home_img2">
+	<div class="images2">
+		<a href="sale.html"><img src="images/converse_sale01.jpg"></a>
+		<p class="shoes">Chunk 70 Leopard Love</p>
+		<p class="price">RM280 <span style="color:#fc5353;font-size: 11px;">(up to 30% discount)</span></p>
+	</div>
+
+	<div class="images2">
+		<a href="sale.html"><img src="images/nike_sale02.webp"></a>
+		<p class="shoes">Nike Air Force 1 '07</p>
+		<p class="price">RM389 <span style="color: #fc5353;font-size: 11px;">(up to 30% discount)</span></p>
+	</div>
+
+	<div class="images2">
+		<a href="sale.html"><img src="images/nike_sale03.webp"></a>
+		<p class="shoes">Nike Blazer Mid '77</p>
+		<p class="price">RM339 <span style="color: #fc5353;font-size: 11px;">(up to 30% discount)</span></p>
+	</div>
+
+	<div class="images2">
+		<a href="sale.html"><img src="images/NB_sale01.webp"></a>
+		<p class="shoes">New Balance 530</p>
+		<p class="price">RM399 <span style="color: #fc5353;font-size: 11px;">(up to 30% discount)</span></p>
+	</div>
+
+	<div class="images2">
+		<a href="sale.html"><img src="images/adidas_sale01.webp"></a>
+		<p class="shoes">Adidas Originals Superstar</p>
+		<p class="price">RM380 <span style="color: #fc5353;font-size: 11px;">(up to 30% discount)</span></p>
+	</div>
+	<!--All images are taken from
+		https://www.nike.com/my/
+		https://www.converse.com/
+		https://www.newbalance.com.my/
+		https://www.jdsports.my/-->
+</div>
+
+
+	<div class="column">
+		<div class="magazine">
+			<img src="images/shoes_magazine.webp">
+		</div>
+	</div>
+
+		<div class="column">
+			<div class="videos">
+				<h1>&quot;A Way Of Life&quot;</h1>
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/X2LdQNqsDHI?si=nPE_Dxv4cBOWuAMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/UuMBro2RN0s?si=IGWAydC7BuIRKEMx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<div class="videos2">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5SjN4_2AfIE?si=tE8X5rzKNnC1-BC2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/HqyYZagvpE0?si=-nyWSvCpCwfAZ8Y9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<!--All YT video are taken from
+				https://www.youtube.com/watch?v=X2LdQNqsDHI&list=PPSV
+				https://www.youtube.com/watch?v=HqyYZagvpE0&list=PPSV
+				https://www.youtube.com/watch?v=5SjN4_2AfIE&list=PPSV
+				https://www.youtube.com/watch?v=UuMBro2RN0s&list=PPSV-->
+		</div>
+		
+	<div class="shop_brand">
+		<h2>Shop By Brands</h2>
+	</div>
+
+	<div class="brands_logo">
+		<div class="brand">
+			<img src="images/nike_logo.png">
+		</div>
+		<div class="brand">
+			<img src="images/adidas_logo.png">
+		</div>
+		<div class="brand">
+			<img src="images/converse_logo.png">
+		</div>
+		<div class="brand">
+			<img src="images/NB_logo.png">
+		</div>
+	</div>
+
+	<!--All images are taken from
+		https://www.nike.com/my/
+		https://www.converse.com/
+		https://www.newbalance.com.my/
+		https://www.jdsports.my/-->
+
+	<div class="disclaimer">
+		<p>Disclaimer: This website is created for education and non-commercial use
+		   only. It is an assignment for completion of unit, DBI211 Fundamentals of Web
+		   Technology based on the Foundation (IT/Multimedia) course from Swinburne
+		   University of Technology Sarawak Campus.</p>
+	</div>
+		
+
+	</article>
+
+	<footer>
+		<section class="footer">
+
+		<p style="visibility: hidden;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla.</p>
+
+		<p>SHOP</p>
+
+		<ul>
+			
+			<li><a href="index.html">Home</a></li>
+			<li><a href="men.html">Men</a></li>
+			<li><a href="women.html">Women</a></li>
+			<li><a href="kids.html">Kids</a></li>
+
+		</ul>
+
+		<p>MORE</p>
+
+		<ul>
+
+			<li><a href="about.html">About us</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+
+		</ul>
+
+			<h4 class="copy_right">&copy; TRIOS | Last_updated: 17/11/2023</h4>
+
+		</section>
+	</footer>
+	
+</body>
+</html>
+
+				
